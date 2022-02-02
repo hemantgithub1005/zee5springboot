@@ -44,11 +44,11 @@ public class Zee5appspringbootApplication {
 		
 		try {
 			Register register=new Register();
-			register.setId("harish4");
-			register.setFirstName("harish");
-			register.setLastName("y");
-			register.setPassword("1234");
-			register.setEmail("harish4@gmail.com");
+			register.setId("hemant1234");
+			register.setFirstName("hemant");
+			register.setLastName("yadav");
+			register.setPassword("123456789");
+			register.setEmail("hemantyadav10054@gmail.com");
 			
 			System.out.println(service.addUser(register));
 		} catch (Exception e) {
@@ -246,7 +246,7 @@ public class Zee5appspringbootApplication {
 			subscription.setDateofPurchase(new Date(01-01-2022));
 			subscription.setExpiryDate(new Date(01-07-2022));
 			try {
-				subscription.setregId("harish4");
+				subscription.setregId("hemant4");
 			} catch (InvalidIdLengthException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
